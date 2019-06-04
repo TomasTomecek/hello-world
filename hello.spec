@@ -14,6 +14,7 @@ BuildRequires:  python3-devel
 
 
 %prep
+exit 1
 %autosetup -n %{name}-%{version}
 
 %build
